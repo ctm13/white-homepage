@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+	<script language="JavaScript">
+  				function selectText(textField) 
+ 				 {
+  					  textField.focus();
+   						 textField.select();
+											  }
+			</script>
+	
+	<title>What do? Where go?</title>
+	<link type="text/css" rel="stylesheet" href="stylesheet.css">
+	<link type="image/png" rel="shortcut icon" href="favicon.ico"/>
+
+
+</head>
+
+<body>
+
+	<h1>What do now?</h1>
+
+	<div id="forms">
+		<form id="form" method="get" action="http://www.google.com/search">
+		<input style=color:grey type="text" id="input" class="tftextinput4" name="q" size="21" maxlength="120" value=" Google" onClick="selectText(this);">
+		</form>
+	
+
+	
+		<form id="form" method="get" action="http://www.google.com/images">
+		<input style=color:grey type="text" id="input" class="tftextinput4" name="q" size="21" maxlength="120" value=" Images" onClick="selectText(this);">
+		</form>
+	
+
+	
+		<form id="form" action="http://www.en.wikipedia.org/wiki/w/index.php" method="get"> 
+		<input id="input" style=color:grey type="text" name="search" value=" Wikipedia" onClick="selectText(this);"/>
+   		</form>
+   	
+	
+	
+		<form id="form" method="get" action="http://www.youtube.com/results">
+		<input style=color:grey type="text" id="input" class="tftextinput4" name="q" size="21" maxlength="120" value=" YouTube" onClick="selectText(this);">
+		</form>
+	</div>
+
+			<div id="column1">
+				<a class="column1link" href="http://boards.4chan.org/g/">/g/</a>
+				<a class="column1link" href="">2</a>
+				<a class="column1link" href="">3</a>
+				<a class="column1link" href="">4</a>
+				<a class="column1link" href="">5</a>
+				<a class="column1link" href="">6</a>
+			</div>
+
+			<div id="column2">
+				<a class="column2link" href="http://xda-developers.com">xda</a>
+				<a class="column2link" href="">2</a>
+				<a class="column2link" href="">3</a>
+				<a class="column2link" href="">4</a>
+				<a class="column2link" href="">5</a>
+				<a class="column2link" href="">6</a>
+			</div>
+
+		<h1 id="customtext">Your message here......</h1>		
+</body>
+
+</html>
